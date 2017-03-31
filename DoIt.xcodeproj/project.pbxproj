@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E423886A1E7BE305005CE669 /* completeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42388691E7BE305005CE669 /* completeTaskViewController.swift */; };
 		E45BA5351E749D2D004AC0DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA5341E749D2D004AC0DA /* AppDelegate.swift */; };
-		E45BA5371E749D2D004AC0DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA5361E749D2D004AC0DA /* ViewController.swift */; };
+		E45BA5371E749D2D004AC0DA /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA5361E749D2D004AC0DA /* TasksViewController.swift */; };
 		E45BA53A1E749D2D004AC0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45BA5381E749D2D004AC0DA /* Main.storyboard */; };
 		E45BA53D1E749D2D004AC0DA /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E45BA53B1E749D2D004AC0DA /* DoIt.xcdatamodeld */; };
 		E45BA53F1E749D2D004AC0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45BA53E1E749D2D004AC0DA /* Assets.xcassets */; };
 		E45BA5421E749D2D004AC0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45BA5401E749D2D004AC0DA /* LaunchScreen.storyboard */; };
 		E45BA54D1E749D2D004AC0DA /* DoItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA54C1E749D2D004AC0DA /* DoItTests.swift */; };
 		E45BA5581E749D2D004AC0DA /* DoItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA5571E749D2D004AC0DA /* DoItUITests.swift */; };
+		E45BA56A1E75B3C5004AC0DA /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BA5691E75B3C5004AC0DA /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E42388691E7BE305005CE669 /* completeTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = completeTaskViewController.swift; sourceTree = "<group>"; };
 		E45BA5311E749D2D004AC0DA /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45BA5341E749D2D004AC0DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E45BA5361E749D2D004AC0DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E45BA5361E749D2D004AC0DA /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		E45BA5391E749D2D004AC0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E45BA53C1E749D2D004AC0DA /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		E45BA53E1E749D2D004AC0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		E45BA5531E749D2D004AC0DA /* DoItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45BA5571E749D2D004AC0DA /* DoItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoItUITests.swift; sourceTree = "<group>"; };
 		E45BA5591E749D2D004AC0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45BA5691E75B3C5004AC0DA /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTaskViewController.swift; path = ../CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				E45BA5341E749D2D004AC0DA /* AppDelegate.swift */,
-				E45BA5361E749D2D004AC0DA /* ViewController.swift */,
+				E45BA5361E749D2D004AC0DA /* TasksViewController.swift */,
+				E45BA5691E75B3C5004AC0DA /* CreateTaskViewController.swift */,
+				E42388691E7BE305005CE669 /* completeTaskViewController.swift */,
 				E45BA5381E749D2D004AC0DA /* Main.storyboard */,
 				E45BA53E1E749D2D004AC0DA /* Assets.xcassets */,
 				E45BA5401E749D2D004AC0DA /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E45BA53D1E749D2D004AC0DA /* DoIt.xcdatamodeld in Sources */,
-				E45BA5371E749D2D004AC0DA /* ViewController.swift in Sources */,
+				E423886A1E7BE305005CE669 /* completeTaskViewController.swift in Sources */,
+				E45BA5371E749D2D004AC0DA /* TasksViewController.swift in Sources */,
 				E45BA5351E749D2D004AC0DA /* AppDelegate.swift in Sources */,
+				E45BA56A1E75B3C5004AC0DA /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				E45BA55E1E749D2D004AC0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E45BA55F1E749D2D004AC0DA /* Build configuration list for PBXNativeTarget "DoItTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				E45BA5611E749D2D004AC0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E45BA5621E749D2D004AC0DA /* Build configuration list for PBXNativeTarget "DoItUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				E45BA5641E749D2D004AC0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
